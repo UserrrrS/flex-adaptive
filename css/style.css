@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 100vw;
+  max-height: 70px;
+  background-color: silver;
+}
+
+nav {
+  display: flex;
+  margin-right: 81px;
+}
+
+.container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_menu {
+  list-style-type: none;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list_menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+img {
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+img:hover {
+  border-radius: 10%;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+img:active {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+}
+
+li button {
+  border: none;
+  background-color: silver;
+}
+
+li button img {
+  background-color: silver;
+}
+
+.cross {
+  position: relative;
+  background-color: silver;
+}
+
+.stick_1 {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 45%;
+  right: 20px;
+  transform: rotate(45deg);
+}
+
+.stick_2 {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 45%;
+  right: 20px;
+  transform: rotate(-45deg);
+}
+
+.main {
+  background-color: sienna;
+  min-height: 700px;
+  width: 100vw;
+}
+
+.main__wrapper {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: rgb(234, 193, 117);
+}
+
+.main__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  margin-top: 15px;
+}
+
+.main__box {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.main__card {
+  width: 300px;
+  height: 430px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid rgb(234, 193, 117);
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.circle {
+  display: flex;
+  width: 60px;
+  min-height: 60px;
+  background-color: rgb(234, 193, 117);
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: white;
+
+}
+
+.main__card_text {
+  margin-top: 20px;
+  font-size: 20px;
+  max-width: 200px;
+}
+
+.main__btn {
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: rgb(234, 193, 117);
+  color: white;
+  border-radius: 30px;
+}
+
+.footer {
+  max-width: 100vw;
+  height: 70px;
+  background-color: silver;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+}
